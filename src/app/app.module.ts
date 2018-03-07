@@ -1,3 +1,5 @@
+import { BuyoutPage } from './../pages/buyout/buyout';
+import { ShopPage } from './../pages/shop/shop';
 import { UserPage } from './../pages/users/user/user';
 import { UsersPage } from './../pages/users/users';
 import { BrowserModule } from '@angular/platform-browser';
@@ -12,7 +14,9 @@ import { HomePage } from '../pages/home/home';
 @NgModule({
   declarations: [
     MyApp,
+    BuyoutPage,
     HomePage,
+    ShopPage,
     UsersPage,
     UserPage,
   ],
@@ -23,7 +27,9 @@ import { HomePage } from '../pages/home/home';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
+    BuyoutPage,
     HomePage,
+    ShopPage,
     UsersPage,
     UserPage
   ],
